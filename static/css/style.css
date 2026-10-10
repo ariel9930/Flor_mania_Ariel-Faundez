@@ -1,0 +1,154 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*Nav Bar*/
+.navbar {
+    background-color: #d5a6bd;
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+    align-items: center;
+    padding: 10px;
+}
+
+.Flor {
+    color: white;
+}
+
+.envia-flores {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+
+.iniciar-sesion {
+    width: 130px;
+    height: 40px;
+    font-size: 20px;
+    border: none;
+    border: solid 2px black;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.664);
+}
+
+.lista-flores {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    background-color: #cccccc;
+}
+
+.lista-flores a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px;
+}
+
+/*flores mes*/
+.flores-mes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.flores-mes img {
+    width: 700px;
+    height: 250px;
+}
+
+
+/*Cajas finales*/
+.finales-cajas img {
+    width: 250px;
+    background-color: white;
+}
+
+.finales-cajas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 25px;
+
+}
+
+.separacion {
+    display: flex;
+    gap: 500px;
+    margin-top: 25px;
+}
+
+.separacion a {
+    color: rgb(30, 98, 157);
+    font-weight: bold;
+}
+
+.negrita {
+    font-weight: bold;
+}
+
+.caja1 {
+    background-color: #cccccc;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.rosas-texto {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.Comprar {
+    width: 100px;
+    height: 30px;
+    border: none;
+    border: solid 2px black;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.664);
+    background-color: #c77ea4;
+    color: white;
+    font-weight: bold;
+}
+
+.dinero {
+    color: #ad5c84;
+    font-weight: bold;
+}
+
+.ramo-rosas-texto {
+    border-bottom: solid 1px black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+
+.caja2 {
+    background-color: #cccccc;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.tulipanes-texto{
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+.caja3 {
+    background-color: #cccccc;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.bouquet-texto{
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
